@@ -1,3 +1,16 @@
+# Projeto para conclusão do curso de TI
+
+## Este projeto é um front-end que permitira o usuário criar usuarios samba no sistema ·· operacional e gerenci-a-lo.
+
+## Instalação
+
+    * instalar o nodejs caso não tenha instalado
+        * site do nodejs https://nodejs.org/en/
+    * fazer um clone do projeto
+        * https://github.com/gabyatierno/proim.git
+    * instalar as dependências
+        * npm install
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
