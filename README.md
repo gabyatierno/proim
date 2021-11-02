@@ -4,12 +4,12 @@
 
 ## Instalação
 
-    * instalar o nodejs caso não tenha instalado
-        * site do nodejs https://nodejs.org/en/
-    * fazer um clone do projeto
-        * https://github.com/gabyatierno/proim.git
-    * instalar as dependências
-        * npm install
+    ### instalar o nodejs caso não tenha instalado (site do nodejs https://nodejs.org/en/)
+    ### fazer um clone do projeto
+        git clone https://github.com/gabyatierno/proim.git
+        cd proim
+    ### instalar as dependências
+        npm install
 
 # Getting Started with Create React App
 
