@@ -2,7 +2,7 @@
 
 ## Este projeto é um front-end que permitira o usuário criar usuarios samba no sistema ·· operacional e gerenci-a-lo.
 
-## Instalação o nodejs
+## Instalar o nodejs
 Instalar o nodejs caso não tenha instalado site do nodejs [NodeJS Download e Instalação](https://nodejs.org/en/)
 ## Fazer um clone do projeto
     git clone https://github.com/gabyatierno/proim.git
