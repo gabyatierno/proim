@@ -1,12 +1,16 @@
 import React from 'react';
-import { Container } from './styles';
 
-import { SideBar } from '../SideBar';
-import MainContent from '../MainContent';
+import store from '../../store';
 import { Provider } from 'react-redux';
 import { GlobalStyle } from '../../styles/global';
-import store from '../store';
+
+import { Container } from './styles';
+import { SideBar } from '../SideBar';
+import MainContent from '../MainContent';
 import SubscribeThemeProvider from '../SubscribeThemeProvider';
+
+import Home from '../../pages/Home';
+import ProinFormPage from '../../pages/Cadastro';
 
 
 export default function Main() {
@@ -16,7 +20,10 @@ export default function Main() {
         <GlobalStyle />
         <Container>
           <SideBar />
-          <MainContent />
+          <MainContent>
+            <Home />
+            <ProinFormPage />
+          </MainContent>
         </Container>
       </SubscribeThemeProvider>
     </Provider>
