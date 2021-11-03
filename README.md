@@ -2,12 +2,14 @@
 
 ## Projeto de construção da interface gráfica :art: para a aplicação de gerenciamento do servidor Samba, utilizado em programas empresariais. :office: 
 
-## Instalar o nodejs
-Instalar o nodejs caso não tenha instalado site do nodejs [NodeJS Download e Instalação](https://nodejs.org/en/)
-## Fazer um clone do projeto
+### Para Iniciantes
+#### Instalar Node Js
+Site para instalação do Node Js [NodeJS Download e Instalação](https://nodejs.org/en/)
+### Para Avançados
+#### Fazer um clone do projeto
     git clone https://github.com/gabyatierno/proim.git
     cd proim
-## Instalar as dependências
+### Instalar as dependências
     npm install
 
 # Getting Started with Create React App
