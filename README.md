@@ -1,6 +1,9 @@
 # Proim: Aplicação para Servidor Samba - Front-end :computer:
 
-## Projeto de construção da interface gráfica :art: para a aplicação de gerenciamento do servidor Samba, utilizado em programas empresariais. :office: 
+## Projeto de construção da interface gráfica :art: para a aplicação de gerenciamento do servidor Samba, utilizado em programas empresariais. :office:
+
+![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
+![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
 
 ### Para Iniciantes
 #### Instalar Node Js
