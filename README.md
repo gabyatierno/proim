@@ -17,6 +17,9 @@
    * [Referências](#referencias)
 <!--te-->
 
+### Status do Projeto
+:heavy_check_mark: Projeto concluido!
+
 ### Para Iniciantes
 #### Instalar Node Js
 Site para instalação do Node Js [NodeJS Download e Instalação](https://nodejs.org/en/)
