@@ -1,6 +1,6 @@
-# Projeto para conclusão do curso de TI
+# Proim: Aplicação para Servidor Samba - Front-end :computer:
 
-## Este projeto é um front-end que permitira o usuário criar usuarios samba no sistema ·· operacional e gerenci-a-lo.
+## Projeto de construção da interface gráfica :art: para a aplicação de gerenciamento do servidor Samba, utilizado em programas empresariais. :office: 
 
 ## Instalar o nodejs
 Instalar o nodejs caso não tenha instalado site do nodejs [NodeJS Download e Instalação](https://nodejs.org/en/)
