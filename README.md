@@ -1,38 +1,44 @@
-# Proim: Aplicação para Servidor Samba - Front-end :computer:
+# :computer: Proim: Aplicação para Servidor Samba - Front-end :art:
 
-## Projeto de construção da interface gráfica :art: para a aplicação de gerenciamento do servidor Samba, utilizado em programas empresariais. :office:
-
-![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
-![Badge](https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=for-the-badge&logo=ghost)
+## Projeto de construção da interface gráfica para a aplicação de gerenciamento do servidor Samba, utilizado em programas empresariais. :office:
 
 ### Índice
 =================
 <!--ts-->
    * [Sobre](#Sobre)
-   * [Tecnologias](#tecnologias)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
       * [Pré Requisitos](#pre-requisitos)
       * [Utilização](#utilizacao)
+   * [Tecnologias](#tecnologias)
    * [Referências](#referencias)
 <!--te-->
 
-### Status do Projeto
-:heavy_check_mark: Projeto concluido!
+### :construction: Status do Projeto :construction:
+:heavy_check_mark: Projeto concluído!
 
-### Para Iniciantes
+### Instalação
+
 #### Instalar Node Js
 Site para instalação do Node Js [NodeJS Download e Instalação](https://nodejs.org/en/)
-### Para Avançados
+
+#### Instalar as dependências
+    npm install
+
+### Pré-Requisitos
+#### Instalar Node Js
+Site para instalação do Node Js [NodeJS Download e Instalação](https://nodejs.org/en/)
+
 #### Fazer um clone do projeto
     git clone https://github.com/gabyatierno/proim.git
     cd proim
-### Instalar as dependências
+
+#### Instalar as dependências
     npm install
 
 # Primeiros passos com Criar aplicativo React
 
-Este projeto foi inicializado com [Create React App] (https://github.com/facebook/create-react-app).
+Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
 ## Scripts Disponíveis
 
@@ -49,7 +55,7 @@ Você também verá quaisquer erros de lint no console.
 ### `npm test`
 
 Inicia o executor de teste no modo de observação interativo. \
-Consulte a seção sobre [execução de testes] (https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
+Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
 
 ### `npm run build`
 
@@ -59,7 +65,7 @@ Ele agrupa corretamente o React no modo de produção e otimiza a construção p
 A compilação é reduzida e os nomes dos arquivos incluem os hashes. \
 Seu aplicativo está pronto para ser implantado!
 
-Consulte a seção sobre [implantação] (https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
+Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
 
 ### `npm run eject`
 
@@ -73,9 +79,9 @@ Você nunca precisa usar `ejetar`. O conjunto de recursos selecionados é adequa
 
 ## Saber mais
 
-Você pode aprender mais na [documentação do aplicativo Criar React] (https://facebook.github.io/create-react-app/docs/getting-started).
+Você pode aprender mais na [documentação do aplicativo Criar React](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Para aprender o React, verifique a [documentação do React] (https://reactjs.org/).
+Para aprender o React, verifique a [documentação do React](https://reactjs.org/).
 
 ### Divisão de Código
 
