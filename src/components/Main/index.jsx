@@ -1,5 +1,8 @@
 import React from 'react';
-
+import {
+  Routes,
+  Route
+} from "react-router-dom";
 import store from '../../store';
 import { Provider } from 'react-redux';
 import { GlobalStyle } from '../../styles/global';
@@ -21,8 +24,10 @@ export default function Main() {
         <Container>
           <SideBar />
           <MainContent>
-            <Home />
-            <ProinFormPage />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="cadastrar" element={<ProinFormPage />} />
+            </Routes>
           </MainContent>
         </Container>
       </SubscribeThemeProvider>

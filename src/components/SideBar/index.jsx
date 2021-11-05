@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 import { BoxSideBar, BoxMenu, Arrow } from './styles';
@@ -14,18 +15,18 @@ export const SideBar = () => {
         <BoxSideBar opacity={showLogo}>
             <Logo width="60" opacity={showLogo}/>
             <BoxMenu>
-                <button>
-                    <Arrow size={20}/>
-                    <p>home</p>
-                </button>
-                <button>
-                    <Arrow size={20}/>
-                    <p>home</p>
-                </button>
-                <button>
-                    <Arrow size={20}/>
-                    <p>home</p>
-                </button>
+                <Link to="/">
+                    <button>
+                        <Arrow size={20} />
+                        <p>home</p>
+                    </button>
+                </Link>
+                <Link to="/cadastrar">
+                    <button>
+                        <Arrow size={20} />
+                        <p>cadastrar</p>
+                    </button>
+                </Link>
             </BoxMenu>
         </BoxSideBar>
     );

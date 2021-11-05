@@ -6,13 +6,6 @@ import {
     Content,
 } from './styles';
 import NavBarPropperty from "../NavBar";
-import { 
-    ProinForms, 
-    ProinInputEmail, 
-    ProinInputNome, 
-    ProinInputSenha,
-    ProinInputSubmit,
-} from '../ProinForms';
 import FooterProperty from "../FooterProperty";
 
 
