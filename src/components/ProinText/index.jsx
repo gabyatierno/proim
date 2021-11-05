@@ -1,17 +1,22 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import { TextContentUser } from './styles';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { useSelector } from 'react-redux';
+import TextContentUser from './styles';
 
+const ProinText = ({ children }) => {
+  const configData = useSelector(
+    (state) => state.sideBarReducer.controlSideBar,
+  );
 
-const ProinText = (props) => {
+  return (
+    <TextContentUser fontSize={configData.fontsizeContent}>
+      {children}
+    </TextContentUser>
+  );
+};
 
-    const configData = useSelector(state => state.sideBarReducer.controlSideBar);
-
-    return(
-        <TextContentUser fontSize={configData.fontsizeContent}>
-            {props.children}
-        </TextContentUser>
-    );
-}
+ProinText.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default ProinText;

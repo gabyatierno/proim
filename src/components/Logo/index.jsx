@@ -1,13 +1,17 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import { ImgLogo } from './styles'
+import ImgLogo from './styles';
 
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/logo.svg';
 
-const Logo = (props) => {
-    return (
-        <ImgLogo src={logo} alt="" width={props.width} opacity={props.opacity}/>
-    );
-}
+const Logo = ({ width, opacity }) => (
+  <ImgLogo src={logo} alt="" width={width} opacity={opacity} />
+);
+
+Logo.propTypes = {
+  width: PropTypes.number.isRequired,
+  opacity: PropTypes.number.isRequired,
+};
 
 export default Logo;

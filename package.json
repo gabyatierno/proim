@@ -4,10 +4,19 @@
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",
+    "@styled-icons/bootstrap": "^10.34.0",
+    "@styled-icons/boxicons-solid": "^10.38.0",
+    "@styled-icons/entypo": "^10.34.0",
+    "@styled-icons/evaicons-outline": "^10.34.0",
+    "@styled-icons/fa-solid": "^10.34.0",
+    "@styled-icons/material-outlined": "^10.34.0",
+    "@styled-icons/material-rounded": "^10.34.0",
+    "@styled-icons/remix-fill": "^10.18.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "history": "^5.1.0",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dark-mode-toggle": "^0.2.0",
     "react-dom": "^17.0.2",
@@ -25,12 +34,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint ./",
+    "lintFix": "eslint ./ --fix",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "prettier",
+      "prettier/react"
     ]
   },
   "browserslist": {
@@ -44,5 +58,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.1"
   }
 }
