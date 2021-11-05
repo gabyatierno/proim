@@ -1,10 +1,8 @@
-import React from "react";
-import { Button } from "./styles";
+import React from 'react';
+import Button from './styles';
 
-export const CustomerButtonsAnimation = (props) => {
-    return (
-        <Button deg={props.deg}>
-            {props.children}
-        </Button>
-    );
-}
+const CustomerButtonsAnimation = (props) => (
+  <Button deg={props.deg}>{props.children}</Button>
+);
+
+export default CustomerButtonsAnimation;

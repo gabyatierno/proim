@@ -1,5 +1,5 @@
 # :computer: Proim: Aplicação para Servidor Samba - Front-end :art:
-
+=======
 ## Neste projeto, foi criada uma interface gráfica para uma aplicação que interage com o servidor Samba; é possível o usuário criar e manutenir informações cadastrais de forma prática e amigável. O projeto atende as necessidades encontradas nas atividades cotidianas de empresas que utilizam o servidor Samba :office:
 
 ### Índice

@@ -1,36 +1,29 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { useSelector } from 'react-redux';
 
-import { 
-    Main, 
-    Content,
-} from './styles';
-import NavBarPropperty from "../NavBar";
-import { 
-    ProinForms, 
-    ProinInputEmail, 
-    ProinInputNome, 
-    ProinInputSenha,
-    ProinInputSubmit,
-} from '../ProinForms';
-import FooterProperty from "../FooterProperty";
+import { Main, Content } from './styles';
+import NavBarPropperty from '../NavBar';
+import FooterProperty from '../FooterProperty';
 
+const MainContent = ({ children }) => {
+  const configData = useSelector(
+    (state) => state.sideBarReducer.controlSideBar,
+  );
 
-const MainContent = (props) => {
+  return (
+    <>
+      <Main width={configData.size}>
+        <NavBarPropperty />
+        <Content>{children}</Content>
+        <FooterProperty />
+      </Main>
+    </>
+  );
+};
 
-    const configData = useSelector(state => state.sideBarReducer.controlSideBar);
-
-    return (
-        <>
-        <Main  width={configData.size}>
-            <NavBarPropperty />
-            <Content>
-                {props.children}
-            </Content>
-            <FooterProperty />
-        </Main>
-        </>
-    );
-}
+MainContent.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default MainContent;

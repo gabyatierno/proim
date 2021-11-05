@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
     
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
@@ -28,3 +28,5 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 300;
     }
 `;
+
+export default GlobalStyle;

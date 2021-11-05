@@ -1,12 +1,12 @@
-import { createStore } from "redux";
+import { createStore } from 'redux';
+import storeSynchronize from 'redux-localstore';
 import RootReducer from './reducers';
-import storeSynchronize from 'redux-localstore'
-
 
 const store = createStore(
-    RootReducer,
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  RootReducer,
+  // eslint-disable-next-line no-underscore-dangle
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
 );
 
-storeSynchronize(store)
+storeSynchronize(store);
 export default store;
