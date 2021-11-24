@@ -3,7 +3,7 @@
 # Descrição
 ## Neste projeto, foi criada uma interface gráfica para uma aplicação que interage com o servidor Samba; é possível o usuário criar e manutenir informações cadastrais de forma prática e amigável. O projeto atende as necessidades encontradas nas atividades cotidianas de empresas que utilizam o servidor Samba :office:
 
-### Índice
+# Índice
 
 <!--ts-->
 
@@ -45,15 +45,9 @@ Utilizar o comando para instalação das dependências recomendado em [Instalaç
 
 # Geral
 
-# Primeiros passos com Criar aplicativo React
-
-Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
-
-## Scripts Disponíveis
-
+#### Primeiros Passos
 No diretório do projeto, você pode executar:
-
-### `npm start`
+`npm start`
 
 Executa o aplicativo no modo de desenvolvimento. \
 Abra [http: // localhost: 3000] (http: // localhost: 3000) para visualizá-lo no navegador.
