@@ -34,14 +34,14 @@ Site para instalação do Node Js [NodeJS Download e Instalação](https://nodej
 
 # Pré-Requisitos
 #### Instalar Node Js
-Site para instalação do Node Js [NodeJS Download e Instalação](https://nodejs.org/en/)
+Seguir os passos do procedimento de [instalação do Node Js](#Instalação)
 
 #### Fazer um clone do projeto
     git clone https://github.com/gabyatierno/proim.git
     cd proim
 
 #### Instalar as dependências
-    npm install
+Utilizar o comando para instalação das dependências recomendado em [Instalação](#Instalação)
 
 # Geral
 
