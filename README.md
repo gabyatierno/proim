@@ -12,8 +12,9 @@
    * [Instalação](#Instalação)
    * [Utilização](#Utilização)
       * [Pré-Requisitos](#Pré-Requisitos)
-   * [Tecnologias](#tecnologias)
-   * [Referências](#referencias)
+      * [Geral](#Geral)
+   * [Tecnologias](#Tecnologias)
+   * [Referências](#Referencias)
 
 <!--te-->
 
@@ -41,6 +42,8 @@ Site para instalação do Node Js [NodeJS Download e Instalação](https://nodej
 
 #### Instalar as dependências
     npm install
+
+# Geral
 
 # Primeiros passos com Criar aplicativo React
 
