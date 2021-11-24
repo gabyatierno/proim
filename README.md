@@ -18,7 +18,7 @@
 ### :construction: Status do Projeto :construction:
 :heavy_check_mark: Projeto concluído!
 
-### Instalação
+# Instalação
 
 #### Instalar Node Js
 Site para instalação do Node Js [NodeJS Download e Instalação](https://nodejs.org/en/)
@@ -67,7 +67,7 @@ A compilação é reduzida e os nomes dos arquivos incluem os hashes. \
 Seu aplicativo está pronto para ser implantado!
 
 Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
-
+# como-usar
 ### `npm run eject`
 
 ** Nota: esta é uma operação unilateral. Depois de `ejetar`, você não pode mais voltar! **
