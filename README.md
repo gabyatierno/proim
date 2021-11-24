@@ -1,24 +1,25 @@
 # :computer: Proim: Aplicação para Servidor Samba - Front-end :art:
 
-## [descricao]Neste projeto, foi criada uma interface gráfica para uma aplicação que interage com o servidor Samba; é possível o usuário criar e manutenir informações cadastrais de forma prática e amigável. O projeto atende as necessidades encontradas nas atividades cotidianas de empresas que utilizam o servidor Samba :office:
+# Descrição
+## Neste projeto, foi criada uma interface gráfica para uma aplicação que interage com o servidor Samba; é possível o usuário criar e manutenir informações cadastrais de forma prática e amigável. O projeto atende as necessidades encontradas nas atividades cotidianas de empresas que utilizam o servidor Samba :office:
 
 ### Índice
 
 <!--ts-->
-   * [Descrição](#descricao)
-   * [Status](#status)
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-      * [Pré Requisitos](#pre-requisitos)
-      * [Utilização](#utilizacao)
-   * [Tecnologias](#tecnologias)
-   * [Referências](#referencias)
+   * [Descrição](#Descrição)
+   * [Status](#Status)
+   * [Instalação](#Instalação)
+   * [Utilização](#Utilização)
+      * [Pré Requisitos](#Pré-Requisitos)
+   * [Tecnologias](#Tecnologias)
+   * [Referências](#Referências)
 <!--te-->
 
+# Status
 ### :construction: Status do Projeto :construction:
 :heavy_check_mark: Projeto concluído!
 
-### Instalação
+# Instalação
 
 #### Instalar Node Js
 Site para instalação do Node Js [NodeJS Download e Instalação](https://nodejs.org/en/)
@@ -26,7 +27,9 @@ Site para instalação do Node Js [NodeJS Download e Instalação](https://nodej
 #### Instalar as dependências
     npm install
 
-### Pré-Requisitos
+# Utilização
+
+# Pré-Requisitos
 #### Instalar Node Js
 Site para instalação do Node Js [NodeJS Download e Instalação](https://nodejs.org/en/)
 
@@ -106,4 +109,8 @@ Esta seção foi movida para aqui: [https://facebook.github.io/create-react-app/
 
 ### `npm run build` falha ao minificar
 
-Esta seção foi movida para aqui: [https://facebook.github.io/create-react-app/docs/trou troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/ create-react-app / docs / troubleshooting # npm-run-build-fail-to-minify) 
+Esta seção foi movida para aqui: [https://facebook.github.io/create-react-app/docs/trou troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/ create-react-app / docs / troubleshooting # npm-run-build-fail-to-minify)
+
+# Tecnologias
+
+# Referências
