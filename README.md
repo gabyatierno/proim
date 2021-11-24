@@ -7,12 +7,11 @@
 
 <!--ts-->
 
-   * [Descrição](#descricao)
-   * [Status](#status)
+   * [Descrição](#Descrição)
+   * [Status](#Status)
    * [Instalação](#Instalação)
-   * [Como usar](#como-usar)
-      * [Pré Requisitos](#Pré-Requisitos)
-      * [Utilização](#utilizacao)
+   * [Utilização](#Utilizacao)
+      * [Pré-Requisitos](#Pré-Requisitos)
    * [Tecnologias](#tecnologias)
    * [Referências](#referencias)
 
