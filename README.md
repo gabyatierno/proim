@@ -6,15 +6,7 @@
 ### Índice
 
 <!--ts-->
-<<<<<<< HEAD
-   * [Descrição](#Descrição)
-   * [Status](#Status)
-   * [Instalação](#Instalação)
-   * [Utilização](#Utilização)
-      * [Pré-Requisitos](#Pré-Requisitos)
-   * [Tecnologias](#Tecnologias)
-   * [Referências](#Referências)
-=======
+
    * [Descrição](#descricao)
    * [Status](#status)
    * [Instalação](#Instalação)
@@ -23,7 +15,7 @@
       * [Utilização](#utilizacao)
    * [Tecnologias](#tecnologias)
    * [Referências](#referencias)
->>>>>>> 78b1f0859768263c942479e30fd6ab62ee3c51da
+
 <!--te-->
 
 # Status
