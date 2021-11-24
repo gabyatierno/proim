@@ -14,7 +14,7 @@
       * [Pré-Requisitos](#Pré-Requisitos)
       * [Geral](#Geral)
    * [Tecnologias](#Tecnologias)
-   * [Referências](#Referencias)
+   * [Referências](#Referências)
 
 <!--te-->
 
