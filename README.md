@@ -46,15 +46,15 @@ Utilizar o comando para instalação das dependências recomendado em [Instalaç
 # Geral
 
 #### Primeiros Passos
-No diretório do projeto, você pode executar o aplicativo no modo de desenvolvimento para visualizá-lo no navegador
+##### No diretório do projeto, você pode executar o aplicativo no modo de desenvolvimento para visualizá-lo no navegador
     npm start
 
-Inicie o executor de testes no modo de observação interativo.
-Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
+##### Inicie o executor de testes no modo de observação interativo.
+##### Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
     npm test
 
-Compile o aplicativo para produção na pasta `build`.
-Ele agrupa corretamente o React no modo de produção e otimiza a construção para o melhor desempenho.
+##### Compile o aplicativo para produção na pasta `build`.
+##### Ele agrupa corretamente o React no modo de produção e otimiza a construção para o melhor desempenho.
     npm run build
 
 A compilação é reduzida e os nomes dos arquivos incluem os hashes.
