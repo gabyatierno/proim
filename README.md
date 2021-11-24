@@ -10,7 +10,7 @@
    * [Status](#Status)
    * [Instalação](#Instalação)
    * [Utilização](#Utilização)
-      * [Pré Requisitos](#Pré-Requisitos)
+      * [Pré-Requisitos](#Pré-Requisitos)
    * [Tecnologias](#Tecnologias)
    * [Referências](#Referências)
 <!--te-->
